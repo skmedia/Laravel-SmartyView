@@ -14,3 +14,7 @@ Included Smarty version: 3.1.11
 ### Download the Source ###
 
 Download a copy of the source from [Github](https://github.com/skmedia/Laravel-SmartyView).
+
+## Thanks ##
+Based on the TwigView bundle by Amir Khawaja
+https://github.com/akhawaja/TwigView
