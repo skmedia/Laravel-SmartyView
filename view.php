@@ -34,6 +34,7 @@ class View extends Laravel\View
      */
     protected function path($view)
     {
+        $view = str_replace('.', '/', $view);
         $this->bundle_root = Laravel\Bundle::path(Laravel\Bundle::name($view)) . 'views';
         $path = $this->bundle_root . DS . Laravel\Bundle::element($view) . $this->template_ext;
 
